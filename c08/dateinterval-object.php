@@ -1,5 +1,11 @@
 <?php
-// @TODO
+$today = new DateTime();
+$event = new DateTime('2026-12-31 20:30');
+$countdown = $today -> diff($event);
+
+$earlybird = new DateTime();
+$interval   = new DAteInterval('P1M');
+$earlybird->add($interval);
 ?>
 <?php include 'includes/header.php'; ?>
 

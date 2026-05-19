@@ -1,5 +1,8 @@
 <?php
-// @TODO
+$start    =strtotime('January 1 2021');
+$end      =mktime(0,0,0,2,1,2021);
+$start_date = date('D,j m\ 'y',$start);
+$end-date = date('1,F d, Y',$end);
 ?>
 <?php include 'includes/header.php'; ?>
 
